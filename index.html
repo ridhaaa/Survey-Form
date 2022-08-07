@@ -1,0 +1,45 @@
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div class="main">
+<h1 id="title">Art Workshop</h1>
+<p id="description">Please fill in the form to complete registration</p>
+ </div>
+<div class="main-content">
+<div class="form-content">
+  <form id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" required placeholder="Enter your name"/>
+    <label for="email" id="email-label">E-mail</label>
+    <input id="email" type="email" required placeholder="Enter your email"/>
+    <label for="number" id="number-label">Age</label>
+    <input id="number" type="number" min="0" max="100" required placeholder="Enter your age"/>
+    <label for ="dropdown">Level</label>
+    
+    <select id="dropdown">
+    <option value="noob">Beginner</option>
+      <option value="medium">Intermediate</option>
+      <option value="pro">Advanced</option>
+      <option value="ultra-pro">Ultra Pro</option>
+    </select>
+    
+    <fieldset>
+      <legend>Would you need paid art supplies set?</legend>
+      <input type="radio" name="action" id="yes" value="yes"/>
+      <label for="yes">Yes</label></br>
+    <input type="radio" name="action" id="no" value="no"/>
+    <label for="no">No</label></br>
+  </fieldset>
+
+<p>Which shift would you like?</p>
+<input type="checkbox" id="morn" value="morn" name="morn">
+  <label for="morn">Morning</label></br>
+<input type="checkbox" id="noon" value="noon" name="noon">
+<label for"noon">Noon</label></br>
+<input type="checkbox" id="sun" value="sun" name="sun">
+<label for="sun">Weekends</label></br></br>
+<label for="comments">Write down your expectations</label>
+<textarea row="5" cols="50" id="comment" required placeholder="Enter here..."></textarea>
+<input type="Submit" id="submit">
+  </form>
+</div>
+</div
